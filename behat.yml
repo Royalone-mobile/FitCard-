@@ -1,0 +1,11 @@
+default:
+    extensions:
+        Laracasts\Behat\ServiceContainer\BehatExtension: ~
+        Behat\MinkExtension\ServiceContainer\MinkExtension:
+            default_session: laravel
+            laravel: ~
+            javascript_session: 'selenium2'
+            browser_name: firefox
+            goutte: ~
+            selenium2: ~
+            base_url: http://fitcard.loc/

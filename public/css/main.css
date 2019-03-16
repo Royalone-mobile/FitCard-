@@ -1,0 +1,53 @@
+/* Front-page custom fonts */
+.welcome-heading {
+    font-size: 5em;
+    color: white;
+}
+
+/* General Heading colors */
+h1, h2, h3, h4, h5, h6 {
+    color: #3c3634;
+}
+
+/* Font Color sets */
+.dark {
+    color: #333;
+}
+
+.light {
+    color: white;
+}
+
+/* Slider */
+#slider, #slider .item {
+    height: 30%;
+}
+.owl-pagination {
+    display: none;
+}
+
+
+/* Columns under the slider on the front-page */
+.tp-title {
+    height: 100%;
+}
+
+/* Loading overlay */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, .8) url('../img/loading.gif') 50% 50% no-repeat;
+}
+
+body.loading {
+    overflow: hidden;
+}
+
+body.loading .modal {
+    display: block;
+}

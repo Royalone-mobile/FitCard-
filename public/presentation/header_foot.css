@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0}:focus,:active {outline:0}img{border: 0}a:link, a:visited {text-decoration: none; }
+
+body {font-family:Arial, Helvetica, sans-serif;}
+
+#encabezado {
+	position:relative;
+	width:100%;
+	height:70px;
+	border-bottom-color:#CCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+#logotipo {
+	background-image: url(../img/logo.jpg);
+	float:left;
+	margin-left:20px;
+	margin-top:4px;
+	width:100px;
+	height:66px;
+}
+
+#title {
+	float:left;
+	margin-left:5px;
+	margin-top:30px;
+	height:66px;
+}
+
+#logotipo2 {
+	background-image: url(../img/xrs.png);
+	float:right;
+	margin-right:20px;
+	margin-top:4px;
+	width:79px;
+	height:66px;
+}
+
+#secciones{
+		float:left;
+		margin-left:5px;
+		margin-top:5px;
+		width:100%;
+		height:66px;	
+	}
+	
+	.elemento{
+		position:relative;
+		float:left;
+		width:55px;
+		height:55px;
+		margin:10px;
+	}
+		
+/* Para los pies*/
+#pie_1{
+	position:relative;
+	margin-top:10px;
+	margin-left:20px;
+	width:100%;
+	height:50px;	
+}

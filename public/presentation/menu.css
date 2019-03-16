@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0;padding:0}:focus,:active {outline:0}img{border:0}
+a:hover {color:#8A090B;}a:link, a:visited {text-decoration: none; color: #0000A0;}
+
+body { 
+	background-color:#FFF}
+
+#titulo {
+	position:relative;
+	width:100%;
+	height:100px;
+	background-color:#FFF;
+}
+
+#logotipo {
+	background-image: url(../img/logo.jpg);
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	width:100px;
+	height:66px;
+}
+
+#logotipo2 {
+	background-image: url(../img/xrs.png);
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+	width:79px;
+	height:66px;
+}
+
+#principal {
+	position:relative;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 84%;
+	font-weight: normal;
+	margin: 0px auto;
+	width:912px;
+	min-height: 100%;
+	background-color:#FFF;
+}
+
+	#cabecera{
+		position:relative;
+		width:920px;
+		height:50px;
+		
+	}
+	
+	.texto_cabecera{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:16px;
+		font-weight:normal;
+		color:#000;
+		margin-top:2px;
+		margin-left:3px;
+		margin-bottom:2px;
+		border-bottom-color:#CCC;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+	}
+
+	#secciones{
+		position:relative;
+		width:920px;
+		height:300px;	
+	}
+	
+	.elemento{
+		position:relative;
+		float:left;
+		width:100px;
+		height:100px;
+		margin:10px;
+	}
+	
+	.texto_elemento{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:12px;
+		font-weight:normal;
+		color:#000;
+		text-align:center;
+	}
